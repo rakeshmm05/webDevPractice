@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors!</title>
+    <link rel="stylesheet" href="RPS3067.css">
+</head>
+<body>
+    
+    <div id="theGame">
+        <h1>Rock Paper Scissors</h1>
+        <div id="Score">
+            Score : 0
+        </div>
+
+        <div id="rps">
+            <button onclick="playGame('Rock')">Rock &#9994;</button>
+            <button onclick="playGame('Paper')">Paper &#9995;</button>
+            <button onclick="playGame('Scissors')">Scissor &#9996;</button>
+        </div>
+
+        <div id="choices">
+            <p id="yourChoice">You chose: -</p>
+            <p id="computerChoice">Computer chose: -</p>
+        </div>
+
+        <div id="Result">
+            Choose your weapon!
+        </div>
+
+        <button onclick="reset()">Reset Game</button>
+    </div>
+    
+
+    <script src="RPS3067.js"></script>
+</body>
+</html>
