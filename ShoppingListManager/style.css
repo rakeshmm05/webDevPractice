@@ -1,0 +1,42 @@
+h2{
+    font-size: 4em;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+input, select, button{
+    margin: 5px;
+    padding: 9px;
+}
+
+button{
+    color: white;
+}
+
+#addButton{
+    background-color: red;
+}
+
+#removeButton{
+    background-color: rgb(116, 133, 241);
+}
+
+#sortButton{
+    background-color: green;
+}
+
+
+#shoppingList {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#orderedItems {
+    margin-top: 20px;
+}

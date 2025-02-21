@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Shopping List Manager</h2>
+
+    <input type="text" id="item" placeholder="Enter item">
+    <input type="number" id="quantity" placeholder="Enter quantity">
+    <select id="category">
+        <option value="Dairy">Dairy</option>
+        <option value="Bakery">Bakery</option>
+        <option value="Produce">Produce</option>
+        <option value="Others">Others</option>
+    </select>
+
+    <button id="addButton" onclick="addItem()">Add Item</button>
+    <button id="removeButton" onclick="removeLast()">Remove Last</button>
+    <button id="sortButton" onclick="sortItems()">Sort Items</button>
+
+    <div id="shoppingList"></div>
+    
+    <div id="orderedItems"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
